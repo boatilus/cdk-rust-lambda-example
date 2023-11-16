@@ -1,0 +1,9 @@
+[workspace]
+
+resolver = "2"
+members = ["functions/example"]
+
+[profile.release]
+opt-level = 3 # Optimize for size.
+strip = true
+lto = true
